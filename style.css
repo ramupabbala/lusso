@@ -83,16 +83,16 @@ align-items: center;
     box-sizing: border-box;
 }
 .search{
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 50px;
-    color:white;
+    color:rgba(255, 255, 255, 0.719);
 }
 .button{
    padding:30px 25%;
    border:#fff 2px solid;
    border-radius: 15px;
    backdrop-filter: blur(10px);
-   background: #0000;
+   background: #ffffff30;
     font-size: 20px;
     color: #ffffff82;
     box-shadow:  #000 0 0 15px 7px;
@@ -100,7 +100,7 @@ align-items: center;
 }
 .relative{
     position: relative;
-    bottom: 24px
+    top: 24px
 }
 .star .fa{
     color: rgb(220, 206, 12);
@@ -133,10 +133,13 @@ align-items: center;
     color:#ffff;
     padding-left: 20px;
     font-size: 20px;
-}
-.bdr{
-    border: #fff 2px solid;
+    border: transparent 2px solid;
     padding:5px 30px;
-    text-align: center;
     border-radius: 30px;
+    text-align: center;
+    transition: all 500ms;
+    margin: 5px;
+}
+.villa:hover{
+    border: #fff 2px solid;
 }
