@@ -309,7 +309,7 @@ text-align: right;
     width: 45%;
 }
 .all-pic{
-    background-color: fcf5eb;
+    /* background-color: fcf5eb; */
     padding: 40px; 
     box-sizing: border-box;
     height: 400px; 
@@ -378,4 +378,58 @@ text-align: right;
     color:#000;
     font-weight: 500;
     font-size: 30px;
+}
+.padding-40{
+    padding: 40px;
+}
+.for-you-container {
+    display: grid;
+    grid-template-columns : 400px 400px 400px 400px;
+    gap: 10px;
+
+}
+.for-you-container .all-pic:nth-child(1) {
+    background: url('./assets/images/chairs-img.jpg') no-repeat;
+    background-size: cover;
+    
+}
+.for-you-container .all-pic:nth-child(3) {
+    background: url('./assets/images/b-im1.jpg') no-repeat;
+    background-size: cover;
+    
+}
+.for-you-container .all-pic:nth-child(6) {
+    background: url('./assets/images/yellow.png') no-repeat;
+    background-size: cover;
+    
+}
+.for-you-container .all-pic:nth-child(6) *{
+    color: #fff;
+    
+}
+.for-you-container .all-pic:nth-child(7) {
+    background: url('./assets/images/sf-1.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.for-you-container .all-pic:nth-child(8) {
+    background: url('./assets/images/chairs-img.jpg') no-repeat;
+    background-size: cover;
+    
+}
+.for-you-container .all-pic:nth-child(9) {
+    background: url('./assets/images/sf-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.for-you-container .all-pic:nth-child(10) {
+    background: url('./assets/images/b-im2.jpg') no-repeat;
+    background-size: cover;
+    
+}
+.for-you-container .all-pic:nth-child(12) {
+    background: url('./assets/images/sf-3.jpg') no-repeat;
+    background-size: cover;
+    background-position: top;
 }
